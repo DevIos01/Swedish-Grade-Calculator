@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.34156106.css",
-    "main.js": "/static/js/main.9a845f61.js",
-    "static/js/453.2cbbcdf3.chunk.js": "/static/js/453.2cbbcdf3.chunk.js",
-    "index.html": "/index.html",
-    "main.34156106.css.map": "/static/css/main.34156106.css.map",
-    "main.9a845f61.js.map": "/static/js/main.9a845f61.js.map",
-    "453.2cbbcdf3.chunk.js.map": "/static/js/453.2cbbcdf3.chunk.js.map"
+    "main.css": "/Swedish-Grade-Calculator/static/css/main.34156106.css",
+    "main.js": "/Swedish-Grade-Calculator/static/js/main.787267f5.js",
+    "static/js/453.2cbbcdf3.chunk.js": "/Swedish-Grade-Calculator/static/js/453.2cbbcdf3.chunk.js",
+    "index.html": "/Swedish-Grade-Calculator/index.html",
+    "main.34156106.css.map": "/Swedish-Grade-Calculator/static/css/main.34156106.css.map",
+    "main.787267f5.js.map": "/Swedish-Grade-Calculator/static/js/main.787267f5.js.map",
+    "453.2cbbcdf3.chunk.js.map": "/Swedish-Grade-Calculator/static/js/453.2cbbcdf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34156106.css",
-    "static/js/main.9a845f61.js"
+    "static/js/main.787267f5.js"
   ]
 }
