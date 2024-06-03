@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.course-form {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.grade-buttons {
+  display: flex;
+}
+
+.btn-grade {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-grade.selected {
+  background-color: #007bff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-grade:hover, .btn-grade:focus {
+  background-color: #e0e0e0;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .btn-grade {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.add-course-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.add-course-form input,
+.add-course-form select,
+.add-course-form button {
+  margin: 0 10px;
+}
+
+.calculate-button, .btn-primary {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  font-size: 16px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.results h2 {
+  font-size: 18px;
+  color: #555;
 }
